@@ -1,0 +1,86 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "dancing script";
+  font-size: large;
+  box-sizing: border-box;
+}
+
+body {
+  background: #b9bcff;
+  padding: 20px;
+}
+
+.h1{
+  justify-content: space-around;
+}
+
+.container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 30px;
+}
+
+.custom-textarea {
+  width: 30px;
+  height: 20px;
+  resize: horizontal;
+}
+.note {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+  background: #f9f9f9;
+}
+
+.add {
+  height: 100px;
+  background: rgb(255, 240, 240);
+  cursor: alias;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+#search-bar {
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#search-bar button {
+  padding: 8px 16px;
+  margin-left: 8px;
+  background-color: #4caf50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+#search-bar button:hover {
+  background-color: #45a049;
+}
+
+#main-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  font-family: "dancing script";
+}
